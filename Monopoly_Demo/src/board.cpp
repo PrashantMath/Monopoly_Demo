@@ -207,5 +207,9 @@ int board::get_numberOfSquares() const
 
 square * board::get_starting_square()
 {
+	int i = 0;
+
+	if (i = 0)
+		printf("Demo \n");
     return get_square(0);
 }
