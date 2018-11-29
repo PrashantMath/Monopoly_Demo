@@ -30,7 +30,7 @@ int utility_square::get_rent() const
     die d2;
 
 
-	if (&d1 == &d2)  
+	if (&d1 == &d2)  // polyspace DEFECT:DEAD_CODE [To investigate:Medium] "Demo"
     {
         std::cerr << "The second DIE is a copy of first DIE!" << std::endl;
         std::exit(1);
